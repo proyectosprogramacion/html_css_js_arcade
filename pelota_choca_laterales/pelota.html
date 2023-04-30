@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<head>
+<title>Arcade</title>
+
+<!-- Los caracteres son UTF-8 -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!-- Autor de la pagina -->
+<meta name="author" content="Monica MR" />
+<!-- Indicamos a los buscadores que nos indexen -->
+<meta name="robots" content="index, follow" />
+<!-- Palabras clave -->
+<meta name="keywords" content="Arcade" />
+<!-- Descripcion de los contenidos -->
+<meta name="description" content=" Arcade html" />
+
+<script type="text/javascript" src="pelota.js"></script>
+
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#laterales {
+	margin: 15px auto;
+	width: 600px;
+	height: 450px;
+	background-image: url('ladrillos.jpg');
+}
+
+#zona {
+	position:relative;
+	top:21px;
+	margin:auto;
+	width: 550px;
+	height: 385px;
+	background-color: #000020;
+	border-radius: 5px;
+	border:1px solid #000060;
+}
+#giros{
+	margin:35px auto;
+	width:400px;
+	
+}
+</style>
+</head>
+<body>
+	<div id="laterales">
+		<div id="zona">
+			<img src="" id="pelota" alt="Pelota" />
+		</div>
+	</div>
+	<div id="giros">
+		<p id="mensaje"></p>
+	</div>
+</body>
+</html>
